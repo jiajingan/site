@@ -1,0 +1,4 @@
+[submodule "jackiegansite/public"]
+	path = jackiegansite/public
+	url = https://github.com/jiajingan/jiajingan.github.io.git
+	branch = main
