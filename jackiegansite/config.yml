@@ -35,8 +35,8 @@ outputs:
     - JSON
 params:
   env: production
-  description: 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
-  author: Theme PaperMod
+  description: 'My internet blog'
+  author: Jackie Gan
   defaultTheme: auto
   ShowShareButtons: true
   ShowReadingTime: true
