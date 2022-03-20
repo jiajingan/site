@@ -5,3 +5,6 @@
 [submodule "jackiegansite/themes/themes/PaperMod"]
 	path = jackiegansite/themes/themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "jackiegansite/themes/PaperMod"]
+	path = jackiegansite/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
