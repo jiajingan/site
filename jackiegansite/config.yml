@@ -1,4 +1,4 @@
-baseURL: "https://jiajingan.github.io/"
+baseURL: "https://jackiegan.com/"
 title: Jackie Gan
 paginate: 5
 theme: PaperMod
@@ -58,8 +58,8 @@ params:
       - name: Tags
         url: tags
   homeInfoParams:
-    Title: Jackie Gan
-    Content: "Hi this is Jackie.\n- **Jackie** is a senior undergraduate student in Philadelphia.\n- I work on random projects in my free time.\n- Feel free to checkout my Github and connect with me on Linkedin !\n"
+    Title: Hi! I'm Jackie
+    Content: "\n- I'm a senior undergraduate student in Philadelphia.\n- I work on random projects in my free time.\n- Feel free to checkout my Github and connect with me on Linkedin !\n"
   socialIcons:
     - name: github
       url: 'https://github.com/jiajingan'
