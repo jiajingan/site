@@ -16,7 +16,10 @@ languages:
     weight: 1
     menu:
       main:
-        - name: Archive
+        - name: Projects
+          url: "https://github.com/jiajingan"
+          weight: 10
+        - name: Posts
           url: archives
           weight: 5
         - name: Search
@@ -25,9 +28,9 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: Categories
-          url: categories/
-          weight: 10
+        # - name: Categories
+        #   url: categories/
+        #   weight: 10
 outputs:
   home:
     - HTML
