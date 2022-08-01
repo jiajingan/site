@@ -4,13 +4,23 @@ date: 2022-03-27T00:11:40-04:00
 ---
 [Computer Science & Mathematics bulletin](https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/mathematics-computer-science-bs/#requirementstext)
 
-# Fall 2022 (15 credits) ~ expected
+
+# Spring 2023 (TBA credits)
+* MATH 3096 - Introduction to Modern Algebra
+
+
+# Fall 2022 (17 credits) 
+* KINS 1009 - Backpacking and Camping I
+* ART 1301 - Introduction to Glass for Non-Tyler BFA Majors
 * CIS 4397 - Independent Research in Computer Science
   * Instructor: Yu Wang
-* MATH 3096 - Introduction to Modern Algebra
 * MATH 3031 - Probability Theory I
-* CIS 4360 - Seminar on Topics in Computer Science
-* CIS 3441 - Software Security
+  * Instructor: Wei-Shih Yang
+* CIS 5526 - Machine Learning (Graduate Course)
+  * Instructor: Slobodan Vucetic
+* CIS 5511 - Programming Techniques (Graduate Course)
+  * Instructor: Alex Pang
+
 
 # Spring 2022 (18 credits)
 * MATH 3044 - Numerical Analysis II
