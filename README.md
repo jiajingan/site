@@ -8,7 +8,11 @@ git clone --recurse-submodules -j8 <url>
 ```
 * `-j8` is an optional performance optimization that became available in version 2.8, and fetches up to 8 submodules at a time in parallel — see `man git-clone`.
 
-# staring application
+# Starting Application
 ```
-hugo server
+hugo server -D
+```
+# Building Application 
+```
+hugo -D
 ```
