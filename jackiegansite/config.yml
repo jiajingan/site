@@ -104,6 +104,18 @@ services:
   twitter:
     disableInlineCSS: true
 frontmatter:
-  lastmod:
+  date:
+  - date
+  - publishDate
   - lastmod
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - :git
+  - lastmod
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date
 
