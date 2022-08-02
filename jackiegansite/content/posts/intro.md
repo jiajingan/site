@@ -1,6 +1,8 @@
 ---
 title: "Intro"
-date: 2022-03-15T16:14:14-04:00
+date: 2022-03-15
+lastmod: 2022-03-15
+draft: false
 ---
 
 Hello World!

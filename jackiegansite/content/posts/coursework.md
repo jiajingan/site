@@ -1,12 +1,16 @@
 ---
-title: "Coursework"
-date: 2022-03-27T00:11:40-04:00
+title: "Undergraduate Coursework"
+date: 2022-03-27
+lastmod: 2022-08-02
+draft: false
 ---
 [Computer Science & Mathematics bulletin](https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/mathematics-computer-science-bs/#requirementstext)
 
 
 # Spring 2023 (TBA credits)
 * MATH 3096 - Introduction to Modern Algebra
+* More Graduate Courses coming
+  * Enrolled in [4+1 program](https://bulletin.temple.edu/graduate/scd/cst/computational-data-science-ms/#programrequirementstext) 
 
 
 # Fall 2022 (17 credits) 

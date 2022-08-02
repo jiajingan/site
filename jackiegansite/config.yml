@@ -4,6 +4,7 @@ paginate: 5
 theme: PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
+enableGitInfo: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
@@ -48,6 +49,7 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowToc: true
+  showWordCount: true
   images:
     - papermod-cover.png
   profileMode:
@@ -101,3 +103,7 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+frontmatter:
+  lastmod:
+  - lastmod
+
