@@ -16,3 +16,5 @@ hugo server -D
 ```
 hugo -D
 ```
+# DIY changes
+The goal of this app was to put submodules in the themes folder to make it easier to maintain. However, I wanted to add [lastmod dates](https://www.jacksonlucky.net/posts/use-lastmod-with-papermod/) into the posts. This had changed the structure, papermod theme is removed from submodule. We will need to manually add the theme for each new release. Simply download the new release and drag/drop. 
