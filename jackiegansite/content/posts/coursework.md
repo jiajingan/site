@@ -15,7 +15,8 @@ draft: false
 
 # Fall 2022 (17 credits) 
 * KINS 1009 - Backpacking and Camping I
-* ART 1301 - Introduction to Glass for Non-Tyler BFA Majors
+* MATH 3096 - Introduction to Modern Algebra
+  * Instructor: Maria Lorenz
 * CIS 4397 - Independent Research in Computer Science
   * Instructor: Yu Wang
 * MATH 3031 - Probability Theory I
