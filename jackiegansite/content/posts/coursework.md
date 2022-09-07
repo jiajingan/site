@@ -15,6 +15,7 @@ draft: false
 
 # Fall 2022 (17 credits) 
 * KINS 1009 - Backpacking and Camping I
+  * Instructor: Richard M. Stein
 * MATH 3096 - Introduction to Modern Algebra
   * Instructor: Maria Lorenz
 * CIS 4397 - Independent Research in Computer Science
