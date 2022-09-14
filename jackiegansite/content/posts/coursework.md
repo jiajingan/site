@@ -8,7 +8,6 @@ draft: false
 
 
 # Spring 2023 (TBA credits)
-* MATH 3096 - Introduction to Modern Algebra
 * More Graduate Courses coming
   * Enrolled in [4+1 program](https://bulletin.temple.edu/graduate/scd/cst/computational-data-science-ms/#programrequirementstext) 
 
