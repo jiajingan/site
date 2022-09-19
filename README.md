@@ -8,6 +8,11 @@ git clone --recurse-submodules -j8 <url>
 ```
 * `-j8` is an optional performance optimization that became available in version 2.8, and fetches up to 8 submodules at a time in parallel — see `man git-clone`.
 
+# posts
+```
+hugo new posts/my-first-post.md
+```
+* this commands will generate a post for you.
 # Starting Application
 ```
 hugo server -D
