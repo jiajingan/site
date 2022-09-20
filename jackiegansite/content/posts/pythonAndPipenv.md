@@ -9,7 +9,7 @@ However, managing packages in python can be a pain. Also, installing it the righ
 * I had to personally witness this myself.......
 ---
 # Installing Python (on macOS)
-I'm a big fan of [brew](https://brew.sh/), brew is a Package Manager for macOS (something like apt-get in linux).
+I'm a big fan of [brew](https://brew.sh/), brew is a Package Manager for macOS (something like apt-get in linux). More info please check out [this](https://docs.python-guide.org/starting/install3/osx/).
 1. Open terminal and run this command to install homebrew
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
