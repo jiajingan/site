@@ -64,7 +64,7 @@ params:
         url: tags
   homeInfoParams:
     Title: Hi! I'm Jackie
-    Content: "\n- I'm a senior undergraduate student in Philadelphia.\n- I work on random projects in my free time.\n- Feel free to checkout my Github and connect with me on Linkedin !\n"
+    Content: "\n- I'm a senior undergraduate student in Philadelphia.\n- I work on random projects in my free time.\n- Feel free to checkout my Github and connect with me on Linkedin!\n"
   socialIcons:
     - name: github
       url: 'https://github.com/jiajingan'

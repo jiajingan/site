@@ -26,4 +26,18 @@ Learning vim(neovim) from the goat himself, [ThePrimeagen](https://www.youtube.c
 - Usually, your bottom corner shows what mode you're in 
 - you can combine vim commands together `d + w` or `d + j` or `d + y` 
 - `:w` to save file 
-- Practice until you're comfortable with all of these commands
+- note: Practice until you're comfortable with all of these commands
+---
+***Vim As Your Editor (2/6): Foundation for Speed(Part 2 here we go)***
+- `o` start insert mode in the new line below  
+- `shift + o` start insert mode in the new line above
+- `shift + p` paste one line above 
+- `a` insert mode at the end of the word
+- `shift + i` insert mode at begining of the line
+- `shift + a` insert mode at end of the the line
+- `/` command mode
+    - `/ + 'function'` command mode searching for function
+    - `n` hop next match or `shift + n` hop backward a match
+- `*` jump to the word next to the cursor in hopping mode 
+- `#` another way to hop backward a match
+- note: we are starting to get fasttttttttt, keep practicing
