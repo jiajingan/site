@@ -53,11 +53,10 @@ draft: false
         - example: `SELECT COUNT(CustomerID), Country FROM CustomersGROUP BY Country;`
     - CREATE DATABASE - creates a new database
         - `CREATE DATABASE databasename;`
-    - ALTER DATABASE - modifies a database
-        - 
     - CREATE TABLE - creates a new table
         - `CREATE TABLE table_name ( column1 datatype, column2 datatype,column3 datatype, ....);`
     - ALTER TABLE - modifies a table
+        - syntax `ALTER TABLE table_name ADD column_name datatype;` or you can also drop columns
     - DROP TABLE - deletes a table
         - `DROP TABLE table_name;`
         - `TRUNCATE TABLE table_name;` delete database not table itself
