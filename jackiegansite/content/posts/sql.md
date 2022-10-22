@@ -1,0 +1,71 @@
+---
+title: "SQL"
+date: 2022-10-21T17:43:22-04:00
+draft: false
+---
+
+- In this past couple OAs (IBM, Citizens Bank just to name a few), I have been taking L's on the database questions. As a CS major in my university, SQL is not part of our curriculum. So I decided to make this post to go over some basic concepts in SQL.
+---
+- SQL is a query language and data is usually stored in tables
+- After some research, I have decided to use MySQL since it is the most popular database. In the future I will also cover some PostgreSql
+- Resources 
+    - https://www.w3schools.com/sql/default.asp
+    - https://sqlzoo.net/wiki/SQL_Tutorial
+    - https://www.sql-practice.com/
+    - https://pgexercises.com/
+- Basic concepts 
+    - SELECT - extracts data from a database
+        - ```SELECT CustomerName, City FROM Customers;```, CustomerName and City are the headers, Customers is the table name
+        - ```SELECT DISTINCT CustomerName, City FROM Customers;```, the distinct keyword will select unique values from customername(e.g. joe will not appear twice in the query).
+        - ```SELECT * FROM Customers WHERE Country='Mexico';```, this query will select everything from Customers tables where country is Mexico.
+        - syntax for select`SELECT column1, column2, ... FROM table_name;`
+        - syntax for select with distinct `SELECT DISTINCT column1, column2, ... FROM table_name;`
+        - syntax for select with where `SELECT column1, column2, ... FROM table_name WHERE condition;`
+        - we can also used key words like `or`, `and`, and `not`
+        - syntax for where and `WHERE condition1 AND condition2 AND condition3 ...;`, for where or `WHERE condition1 OR condition2 OR condition3 ...;`, for where not `WHERE NOT condition;`
+        - syntax `SELECT column1, column2, ... FROM table_name ORDER BY column1, column2, ... ASC|DESC;`, ASC(ascending) is default and DESC(descending) needs manual input
+    - UPDATE - updates data in a database
+        - `UPDATE table_name SET column1 = value1, column2 = value2, ...WHERE condition;`, use set to pick columns and where to select specific condition
+    - DELETE - deletes data from a database
+        - `DELETE FROM table_name WHERE condition;`
+        - `DELETE FROM table_name;` deleting all the data but not the table
+    - INSERT INTO - inserts new data into a database
+        - syntax `INSERT INTO table_name (column1, column2, column3, ...)VALUES (value1, value2, value3, ...);` , you don't always need to list out the columns
+    - Functions 
+        - MAX(), MIN(), COUNT(), AVG(), SUM()
+        - example: `SELECT COUNT(column_name) FROM table_name WHERE condition;`
+    - LIKE - check patterns 
+        - `SELECT column1, column2, ... FROM table_name WHERE columnN LIKE pattern;`
+        - please refer to other resources in the pattern, there is also wildcard patterns
+    - IN, BETWEEN, ALIASES
+        - IN selects a certain value, `WHERE column_name IN (value1, value2, ...);`
+        - BETWEEN is between 2 values, `WHERE column_name BETWEEN value1 AND value2;`
+        - ALIASES is just shorting the name, `SELECT column_name AS alias_name FROM table_name;`
+    - JOINS 
+        - There is 4 different types of joins
+        - INNER JOIN is like intersection of a two sets
+        - LEFT JOIN is getting the insection and the left
+        - RIGHT JOIN is getting the insection and the right
+        - FULL JOIN is getting like union, group everything together
+        - example: `SELECT column_name(s) FROM table1 INNER JOIN table2 ON table1.column_name = table2.column_name;` 
+    - GROUP BY - group into summary rows
+        - We can also use functions in these
+        - example: `SELECT COUNT(CustomerID), Country FROM CustomersGROUP BY Country;`
+    - CREATE DATABASE - creates a new database
+        - `CREATE DATABASE databasename;`
+    - ALTER DATABASE - modifies a database
+        - 
+    - CREATE TABLE - creates a new table
+        - `CREATE TABLE table_name ( column1 datatype, column2 datatype,column3 datatype, ....);`
+    - ALTER TABLE - modifies a table
+    - DROP TABLE - deletes a table
+        - `DROP TABLE table_name;`
+        - `TRUNCATE TABLE table_name;` delete database not table itself
+    - CREATE INDEX - creates an index (search key)
+        - syntax `CREATE INDEX index_name ON table_name (column1, column2, ...);`
+        - creates a index column
+    - DROP INDEX - deletes an index
+        - different server has different way to drop index
+        - syntax for MySQL `ALTER TABLE table_name DROP INDEX index_name;`
+- SQL is not case sensitive 
+- SQL statements ends with a semicolon
