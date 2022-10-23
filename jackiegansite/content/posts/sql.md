@@ -68,3 +68,18 @@ draft: false
         - syntax for MySQL `ALTER TABLE table_name DROP INDEX index_name;`
 - SQL is not case sensitive 
 - SQL statements ends with a semicolon
+
+---
+- Relational vs Non Relational Database
+    - Relational Database (e.g. SQL)
+        - ACID atomicity, consistency, isolation, and durability
+        - Stores everything in tables
+        - High cost of scalability
+        - Needs consistent data that is categorized
+        - consistent/reliable
+        - Used for structure data such as customer data that has a name, address, city, postal code, phone number
+    - Non Relational Database (e.g. NoSQL)
+        - Flexible data expansion
+        - not consistent/reliable
+        - Highly scalable
+        - Used for high complexity and diverse data that has no direct correlation such as personalized data, patient data
