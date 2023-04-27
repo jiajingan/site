@@ -8,8 +8,20 @@ draft: false
 
 
 # Spring 2023 (TBA credits)
-* More Graduate Courses coming
-  * Enrolled in [4+1 program](https://bulletin.temple.edu/graduate/scd/cst/computational-data-science-ms/#programrequirementstext) 
+<!-- * More Graduate Courses coming
+  * Enrolled in [4+1 program](https://bulletin.temple.edu/graduate/scd/cst/computational-data-science-ms/#programrequirementstext)  -->
+* GUS 1173 - Urban Affairs: Black Males in the City
+  * Instructor Walter R. Gholson, III
+* ART 1101 - Introduction to Beginning Ceramics for Non-Tyler BFA Majors
+  * Instructor: Leonor Marion-Landais
+* MUSC 1408 - Piano for Non-Music Majors II
+  * Instructor: Cathy Liu
+* MATH 3031 - Probability Theory I
+  * Instructor: Wei-Shih Yang
+* CIS 4360 - Current Topics in Information science and Technology: Microservice Architecture
+  * instructor: Carl Williams 
+* CIS 4397 - Independent Research in Computer Science
+  * Instructor: Yu Wang
 
 
 # Fall 2022 (17 credits) 
