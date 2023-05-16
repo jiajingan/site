@@ -7,7 +7,7 @@ draft: false
 [Computer Science & Mathematics bulletin](https://bulletin.temple.edu/undergraduate/science-technology/computer-information-science/mathematics-computer-science-bs/#requirementstext)
 
 
-# Spring 2023 (TBA credits)
+# Spring 2023 (13 credits)
 <!-- * More Graduate Courses coming
   * Enrolled in [4+1 program](https://bulletin.temple.edu/graduate/scd/cst/computational-data-science-ms/#programrequirementstext)  -->
 * GUS 1173 - Urban Affairs: Black Males in the City
@@ -16,12 +16,15 @@ draft: false
   * Instructor: Leonor Marion-Landais
 * MUSC 1408 - Piano for Non-Music Majors II
   * Instructor: Cathy Liu
+* BA 2104 - Excel for Business Applications
+  * Instructor: Karen Murtha
 * MATH 3031 - Probability Theory I
   * Instructor: Wei-Shih Yang
 * CIS 4360 - Current Topics in Information science and Technology: Microservice Architecture
   * instructor: Carl Williams 
 * CIS 4397 - Independent Research in Computer Science
   * Instructor: Yu Wang
+  * continued from Fall 2022
 
 
 # Fall 2022 (17 credits) 
