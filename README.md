@@ -13,6 +13,11 @@ git clone --recurse-submodules -j8 <url>
 hugo new posts/my-first-post.md
 ```
 * this commands will generate a post for you.
+# To update theme
+```
+git submodule update --remote --merge
+```
+* please refer to [PaperMod](https://github.com/adityatelange/hugo-PaperMod) for the specific
 # Starting Application
 ```
 hugo server -D
